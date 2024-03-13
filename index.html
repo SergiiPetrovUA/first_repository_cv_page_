@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV page</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <img src="/assets/avatar.png" alt="my avatar" class="avatar">
+      <h1 class="header__title">Sergii Petrov</h1>
+      <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+      <section class="skills">
+        <h3>My Skills</h3>
+        <details>
+          <summary>Skills list :</summary>
+          <ol>
+            <li>1.HTML</li>
+            <li>2.CSS</li>
+            <li>3.JavaScript</li>
+            <li>4.Git</li>
+          </ol>
+        </details>
+      </section>
+      <article class="article">
+        <h4>Short article about me</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+          magnam corrupti possimus, hic accusantium eos asperiores laborum
+          laudantium eveniet tenetur necessitatibus maiores labore eligendi
+          nobis. Veritatis illo hic distinctio? Fugiat!
+        </p>
+      </article>
+      <section class="gallery">
+        <h3>Gallery</h3>
+        <img src="https://placehold.co/250x250" alt="placehole img">
+        <img src="https://placehold.co/250x250" alt="placehole img">
+        <img src="https://placehold.co/250x250" alt="placehole img">
+      </section>
+      <hr class="separator">
+      <section>
+        <iframe
+          class="video"
+          
+          src="https://www.youtube.com/embed/qp0-L_M3Ad4"
+          title="Build a Portfolio Website With Next JS, Tailwind CSS &amp; Framer Motion"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="hobbies">
+        <h4>My hobbies :</h4>
+        <details>
+          <summary>Hobbies</summary>
+          <ol>
+            <li>Football</li>
+            <li>Books</li>
+          </ol>
+        </details>
+      </section>
+      <hr class="separator">
+      <section class="ed">
+        <table class="ed_table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>wait</th>
+              <th>---</th>
+              <th>---</th>
+            </tr>
+            <tr>
+              <th>wait</th>
+              <th>---</th>
+              <th>---</th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="quote">
+        <blockquote>Іди до своєї мети</blockquote>
+      </section>
+
+      <section class="intersction">
+        <form
+          action="https://ukr.net"
+          method="get"
+          class="form"
+          target="_blank"
+        >
+          <fieldset>
+            <legend>Required fields :</legend>
+            <div>
+              <label for="firstName-Id">First Name :</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName-Id"
+                required
+                class="form__control"
+                placeholder="first name"
+              >
+            </div>
+            <div>
+              <label for="lastName-Id">Last Name :</label>
+              <input
+                type="text"
+                name="lasttName"
+                id="lastName-Id"
+                required
+                class="form__control"
+                placeholder="last name"
+              >
+            </div>
+            <div>
+              <label for="email-id">email :</label>
+              <input
+                type="email"
+                name="email"
+                id="email-id"
+                required
+                class="form__control"
+                placeholder="email"
+              >
+            </div>
+          </fieldset>
+          <br>
+          <textarea
+            cols="30"
+            rows="7"
+            class="form__control"
+            name="question"
+            placeholder="your question"
+          ></textarea>
+          <button type="submit" class="form__submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <hr class="separator">
+    <footer>
+      <address>
+        <a href="mailto:ukr.net" class="contacts__link">ukr.net</a>
+        <br>
+        <a href="tel:+3809323700" class="contacts__link">+38099221134</a>
+      </address>
+    </footer>
+  </body>
+</html>
